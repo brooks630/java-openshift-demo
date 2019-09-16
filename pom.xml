@@ -22,7 +22,7 @@
         <lombok.version>1.18.10</lombok.version>
         <slf4j.version>1.7.28</slf4j.version>
         <rest.assured.version>4.1.1</rest.assured.version>
-        <spring.version>2.1.7.RELEASE
+        <spring.version>2.1.7.RELEASE</spring.version>
     </properties>
 
     <dependencies>
