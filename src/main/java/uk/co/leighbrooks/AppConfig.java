@@ -1,6 +1,5 @@
 package uk.co.leighbrooks;
 
-import net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
@@ -31,6 +30,6 @@ public class AppConfig {
     @Bean
     @Primary
     DataSource dataSource() {
-        return new DataSourceSpy(realDataSource());
+        return realDataSource();
     }
 }
